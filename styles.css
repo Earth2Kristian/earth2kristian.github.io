@@ -177,6 +177,25 @@
     font-family: 'Helsinki';
 }
 
+.credits_bottom{
+    background: black;
+    width: auto;
+    padding: 50px;
+}
+
+.credits_bottom_cotainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 90%;
+    text-align: center;
+    padding: 10px;
+}
+
+
 .buttom{
     background: black;
     width: auto;
@@ -199,6 +218,7 @@
     color: white;
     font-family: 'Helsinki';
 }
+
 
 .main__games_showcase {
     display: flex;
@@ -291,6 +311,27 @@
 .buttom__description{
     color: white;
 }
+.credits_font_description{
+    color: white;
+}
+
+.credits_lucida_sans_description{
+    color: white;
+}
+
+.credits_helsinki_description{
+    color: white;
+    font-family: 'Helsinki';
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.credits_helsinki_description:hover{
+    text-decoration: none;
+    color: rgb(255, 196, 68);
+    transition: all 0.3s ease
+}
+
 
 button a {
     text-decoration: none;
@@ -315,6 +356,7 @@ button:hover {
     background-color: rgb(255, 196, 68);
     transition: all 0.3s ease
 }
+
 
 @media screen and (max-width: 600px){
     .navbar__container{

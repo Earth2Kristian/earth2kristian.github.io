@@ -14,6 +14,8 @@ const clickInstagramButton = document.getElementById("click__instagram")
 
 const clickKofiButton = document.getElementById("click__kofi")
 
+const clickFont = document.getElementById("font")
+
 clickItchButton.addEventListener ('click', () => {
     window.location.href = "https://02kristian.itch.io/"
 })
@@ -45,6 +47,10 @@ clickInstagramButton.addEventListener ('click', () => {
 
 clickKofiButton.addEventListener ('click', () => {
     window.location.href = "https://ko-fi.com/kristianhammond"
+})
+
+clickFont.addEventListener ('click', () => {
+    window.location.href = "https://www.fontsquirrel.com/fonts/helsinki"
 })
 
 
