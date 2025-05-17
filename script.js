@@ -7,6 +7,8 @@ const playGumballMayhemButton = document.getElementById("play__gumball_mayhem")
 const playDevilSharkButton = document.getElementById("play__devil_shark")
 const playCuddleNightmareButton = document.getElementById("play__cuddle_nightmares")
 
+const playSkyTwilightButton = document.getElementById("play__sky_twilight")
+
 
 const clickYoutubeButton = document.getElementById("click__youtube")
 const clickTiktokButton = document.getElementById("click__tiktok")
@@ -52,5 +54,10 @@ clickKofiButton.addEventListener ('click', () => {
 clickFont.addEventListener ('click', () => {
     window.location.href = "https://www.fontsquirrel.com/fonts/helsinki"
 })
+
+playSkyTwilightButton.addEventListener ('click', () => {
+    window.location.href = "https://www.pokecommunity.com/threads/pokemon-sky-twilight-version.406017/post-10876428"
+})
+
 
 
