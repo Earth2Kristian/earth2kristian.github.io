@@ -4,6 +4,7 @@ const menuLinks = document.querySelector(".nav-menu")
 const clickItchButton = document.getElementById("click__itch")
 
 const playGumballMayhemButton = document.getElementById("play__gumball_mayhem")
+const playBoomerangRampageButton = document.getElementById("play__boomerang_rampage")
 const playDevilSharkButton = document.getElementById("play__devil_shark")
 const playCuddleNightmareButton = document.getElementById("play__cuddle_nightmares")
 
@@ -32,6 +33,10 @@ playDevilSharkButton.addEventListener ('click', () => {
 
 playCuddleNightmareButton.addEventListener ('click', () => {
     window.location.href = "https://02kristian.itch.io/cuddle-nightmares"
+})
+
+playBoomerangRampageButton.addEventListener ('click', () => {
+    window.location.href = "https://02kristian.itch.io/boomerang-rampage"
 })
 
 playSkyTwilightButton.addEventListener ('click', () => {
