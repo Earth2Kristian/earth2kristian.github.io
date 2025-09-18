@@ -4,6 +4,7 @@ const menuLinks = document.querySelector(".nav-menu")
 const clickItchButton = document.getElementById("click__itch")
 
 const playGumballMayhemButton = document.getElementById("play__gumball_mayhem")
+const playGumballMayhemButtonSteam = document.getElementById("play__gumball_mayhem_steam")
 const playBoomerangRampageButton = document.getElementById("play__boomerang_rampage")
 const playDevilSharkButton = document.getElementById("play__devil_shark")
 const playCuddleNightmareButton = document.getElementById("play__cuddle_nightmares")
@@ -25,6 +26,10 @@ clickItchButton.addEventListener ('click', () => {
 
 playGumballMayhemButton.addEventListener ('click', () => {
     window.location.href = "https://02kristian.itch.io/gumball-mayhem"
+})
+
+playGumballMayhemButtonSteam.addEventListener ('click', () => {
+    window.location.href = "https://store.steampowered.com/app/4015840/Gumblaster_Mayhem/"
 })
 
 playDevilSharkButton.addEventListener ('click', () => {
