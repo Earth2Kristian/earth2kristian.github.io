@@ -5,6 +5,8 @@ const clickItchButton = document.getElementById("click__itch")
 
 const playGumballMayhemButton = document.getElementById("play__gumball_mayhem")
 const playGumballMayhemButtonSteam = document.getElementById("play__gumball_mayhem_steam")
+const playSpellandSteelDuelButton = document.getElementById("play__spell_and_steal_duel");
+const playGrabThatCookieButton = document.getElementById("play__grab_that_cookie")
 const playBoomerangRampageButton = document.getElementById("play__boomerang_rampage")
 const playDevilSharkButton = document.getElementById("play__devil_shark")
 const playCuddleNightmareButton = document.getElementById("play__cuddle_nightmares")
@@ -42,6 +44,14 @@ playCuddleNightmareButton.addEventListener ('click', () => {
 
 playBoomerangRampageButton.addEventListener ('click', () => {
     window.location.href = "https://02kristian.itch.io/boomerang-rampage"
+})
+
+playGrabThatCookieButton.addEventListener ('click', () => {
+    window.location.href = "https://02kristian.itch.io/grab-that-cookie"
+})
+
+playSpellandSteelDuelButton.addEventListener ('click', () => {
+    window.location.href = "https://02kristian.itch.io/spell-and-steel-duel"
 })
 
 playSkyTwilightButton.addEventListener ('click', () => {
