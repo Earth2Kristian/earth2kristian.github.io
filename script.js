@@ -1,9 +1,9 @@
 const menu = document.querySelector("#mobile-menu")
 const menuLinks = document.querySelector(".nav-menu")
 
-const clickItchButton = document.getElementById("click__itch")
+//const clickItchButton = document.getElementById("click__itch")
 
-const playGumballMayhemButton = document.getElementById("play__gumball_mayhem")
+//const playGumballMayhemButton = document.getElementById("play__gumball_mayhem")
 const playGumballMayhemButtonSteam = document.getElementById("play__gumball_mayhem_steam")
 const playSpellandSteelDuelButton = document.getElementById("play__spell_and_steal_duel");
 const playGrabThatCookieButton = document.getElementById("play__grab_that_cookie")
@@ -22,13 +22,13 @@ const clickKofiButton = document.getElementById("click__kofi")
 
 const clickFont = document.getElementById("font")
 
-clickItchButton.addEventListener ('click', () => {
-    window.location.href = "https://02kristian.itch.io/"
-})
+//clickItchButton.addEventListener ('click', () => {
+    //window.location.href = "https://02kristian.itch.io/"
+//})
 
-playGumballMayhemButton.addEventListener ('click', () => {
-    window.location.href = "https://02kristian.itch.io/gumball-mayhem"
-})
+//playGumballMayhemButton.addEventListener ('click', () => {
+    //window.location.href = "https://02kristian.itch.io/gumball-mayhem"
+//})
 
 playGumballMayhemButtonSteam.addEventListener ('click', () => {
     window.location.href = "https://store.steampowered.com/app/4015840/Gumblaster_Mayhem/"
