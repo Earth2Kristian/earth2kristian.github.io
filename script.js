@@ -5,6 +5,7 @@ const menuLinks = document.querySelector(".nav-menu")
 
 //const playGumballMayhemButton = document.getElementById("play__gumball_mayhem")
 const playGumballMayhemButtonSteam = document.getElementById("play__gumball_mayhem_steam")
+const playGumballMayhemButtonItch = document.getElementById("play__gumball_mayhem_itch")
 const playSpellandSteelDuelButton = document.getElementById("play__spell_and_steal_duel");
 const playGrabThatCookieButton = document.getElementById("play__grab_that_cookie")
 const playBoomerangRampageButton = document.getElementById("play__boomerang_rampage")
@@ -32,6 +33,10 @@ const clickFont = document.getElementById("font")
 
 playGumballMayhemButtonSteam.addEventListener ('click', () => {
     window.location.href = "https://store.steampowered.com/app/4015840/Gumblaster_Mayhem/"
+})
+
+playGumballMayhemButtonItch.addEventListener ('click', () => {
+    window.location.href = "https://02kristian.itch.io/gumblaster-mayhem-playtest"
 })
 
 playDevilSharkButton.addEventListener ('click', () => {
