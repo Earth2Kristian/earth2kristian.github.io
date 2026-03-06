@@ -6,7 +6,7 @@ const menuLinks = document.querySelector(".nav-menu")
 //const playGumballMayhemButton = document.getElementById("play__gumball_mayhem")
 const playGumballMayhemButtonSteam = document.getElementById("play__gumball_mayhem_steam")
 const playGumballMayhemButtonItch = document.getElementById("play__gumball_mayhem_itch")
-const playSpellandSteelDuelButton = document.getElementById("play__spell_and_steal_duel")
+const playSpellandSteelDuelButton = document.getElementById("play__spell_and_steel_duel")
 const playGrabThatCookieButton = document.getElementById("play__grab_that_cookie")
 const playBoomerangRampageButton = document.getElementById("play__boomerang_rampage")
 const playDevilSharkButton = document.getElementById("play__devil_shark")
@@ -19,7 +19,7 @@ const clickYoutubeButton = document.getElementById("click__youtube")
 const clickTiktokButton = document.getElementById("click__tiktok")
 const clickInstagramButton = document.getElementById("click__instagram")
 
-const clickKofiButton = document.getElementById("click__kofi")
+//const clickKofiButton = document.getElementById("click__kofi")
 
 const clickFont = document.getElementById("font")
 
@@ -76,9 +76,9 @@ clickInstagramButton.addEventListener ('click', () => {
 })
 
 
-clickKofiButton.addEventListener ('click', () => {
-    window.location.href = "https://ko-fi.com/kristianhammond"
-})
+//clickKofiButton.addEventListener ('click', () => {
+    //window.location.href = "https://ko-fi.com/kristianhammond"
+//})
 
 clickFont.addEventListener ('click', () => {
     window.location.href = "https://www.fontsquirrel.com/fonts/helsinki"
